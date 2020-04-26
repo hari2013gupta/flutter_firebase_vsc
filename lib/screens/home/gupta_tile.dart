@@ -17,7 +17,7 @@ class GuptaTile extends StatelessWidget {
           leading: CircleAvatar(
             radius: 25.0,
             backgroundColor: Colors.brown[gupta.strength],
-            backgroundImage: AssetImage('assets/coffee_icon.png'),
+//            backgroundImage: AssetImage('assets/disp.jpg'),
           ),
           title: Text(gupta.name),
           subtitle: Text('Takes: ${gupta.sugars} sugar(s)'),
